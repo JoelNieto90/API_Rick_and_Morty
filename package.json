@@ -1,0 +1,24 @@
+{
+  "name": "API_Rick_and_Morty",
+  "version": "1.0.0",
+  "description": "Single Page Aplication",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Joel Nieto <joenieto90@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
